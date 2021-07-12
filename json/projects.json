@@ -1,9 +1,9 @@
 [
     {
-      "name": "dfsdfsfsdf",
-      "description":"dsfdfsdfsdf",
-      "github": "http://...",
-      "deployed": "http://...",
-      "image": "http://..."
+      "name": "JSON Lesson",
+      "description":"I created a webpage that displays some of my favorite movies.",
+      "github": "https://github.com/smwellmer/628-jsonlesson",
+      "deployed": "https://mystifying-franklin-0f5c74.netlify.app",
+      "image": "./img/JSON Webpage.png"
     }
 ]
