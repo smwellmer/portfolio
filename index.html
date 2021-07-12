@@ -4,14 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="./js/app.js" defer></script>
     <link rel="stylesheet" href="./css/styles.css">
-    
+    <script src="https://kit.fontawesome.com/953efe9c20.js" crossorigin="anonymous"></script>
+    <title>Samantha Wellmer</title>
 </head>
+
 <body>
-    <h1>Hello World</h1>
-    
+    <header>
+        <nav class="navbar">
+            <img src="./img/mobile SW logo.png" alt="SW mobile Logo" class="mobile-logo">
+            <!-- <img src="./img/SW Logo.png" alt="SW Logo" class="desktop-logo"> -->
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-ul" id= "nav-ul">
+                <li><a href="#aboutme">About Me</a></li> 
+                <li><a href="#projects">Projects</a></li> 
+                <li><a href="#contactme">Contact Me</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <div class="about-me">
+        <h1>Hello, I'm Sam!</h1>
+        <p>This is the section where i tell you about myself.</p>
+        <div class="me">
+           <img src="./img/20210516_131535.jpg" alt="headshot" class="headshot"> 
+        </div>
+    </div>
+    <div class="projects">
+        <h2 class="projects-header">Come see what I've made</h2>
+        <div class="project1">Project 1</div>
+        <div class="project2">Project 2</div>
+    </div>
+    <div class="contact-me">
+        <h2>Let's work together!</h2>
+        <div>
+            <form action="https://formspree.io/f/mwkankjg" method="POST">
+                <label>Your email:
+                     <input type="email" name="_replyto">
+                </label>
+                <label>Your message:
+                 <textarea name="message"></textarea>
+                </label>
+             <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+<footer>
+    Email me directly at: smwellmer@gmail.com
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin"></i>
+</footer>
 </body>
 </html>
