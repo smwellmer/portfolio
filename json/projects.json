@@ -1,9 +1,15 @@
 [
     {
-      "name": "JSON Lesson",
+      "name": "My Top Movies",
       "description":"I created a webpage that displays some of my favorite movies.",
       "github": "https://github.com/smwellmer/628-jsonlesson",
       "deployed": "https://mystifying-franklin-0f5c74.netlify.app",
-      "image": "./img/JSON Webpage.png"
+      "image": "./img/JSONWebpage.png"
+    },
+    {
+      "name": "LOTR Map",
+      "description":"Interactive Map of LOTR",
+      "github": "https://git.generalassemb.ly/smwellmer/jQuery_LOTR",
+      "image": "./img/Screen Shot 2021-07-12 at 5.57.10 PM.png"
     }
 ]

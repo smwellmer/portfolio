@@ -22,17 +22,17 @@ $hamburger.on("click", showMenu)
 
 //grabbing files from JSON
 
-const $projects = $("#projects")
+// const $projects = $(".projects")
 
-$.ajax("./projects.json")
-    .then((data) => {
-        data.forEach((project) => {
-        const $div = $("<div>")
+// $.ajax("./json/projects.json")
+//     .then((data) => {
+//         data.forEach((project, index) => {
+//         const $div = $("<div>")
 
-        $div.html (`<h2 class="project-name">${project.title}</h2> 
-        <h3 class="project-description">${project.description}</h3>
-        <img class="project-image" src="${project.image}/>`)
+//         $div.html (`<h2 class="project-name">${project.name}</h2> 
+//         <h3 class="project-description">${project.description}</h3>
+//         <img src=${project.image}>`)
 
-        $projects.append($div)
-    })
-})
+//         $projects.append($div);
+//     })
+// })
