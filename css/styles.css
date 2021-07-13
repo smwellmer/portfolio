@@ -5,7 +5,6 @@ darker -- #A1B2E6
 */
 
 * {
-    /* border: 1px solid; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -75,13 +74,14 @@ h1 {
 .me {
     grid-column: 1/2;
     grid-row: 2/3;
+    padding-left: 1em; 
 }
 p {
     grid-column: 2/3;
     grid-row: 2/3;
 } 
 .headshot{
-    height: auto;
+    height: 8em;
     width: 8em;
     border-radius: 50%;
 }
@@ -91,6 +91,7 @@ p {
 .projects-header {
     text-align: center;
     font-family: 'Cinzel', serif;
+    text-decoration: underline;
 }
 
 /* grid for my projects*/
@@ -99,6 +100,7 @@ p {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     margin: 0 1em;
+    padding-bottom: 1em;
 }
 .projects > div{
     text-align: center;
@@ -127,7 +129,7 @@ button{
 }
 footer {
     text-align: center;
-    margin: 1em;
+    margin: 0;
     font-family: 'Cinzel', serif;
     background-image: linear-gradient(to right, #A1B2E6, #dce2f3);
 }
@@ -136,16 +138,13 @@ h2 {
 }
 /*      MEDIA QUERIES    */
 @media screen and (min-width: 768px){
-   
     .hamburger {
        display: none;
    }
-
    .nav-ul {
        display: flex;
        margin-right: 1em;
    }
-
    .mobile-logo {
     display: none;
    }
@@ -155,7 +154,6 @@ h2 {
        justify-content: space-between;
        align-items: center;
     }
-
    .desktop-logo{
        display: flex;
        height: 12em;
@@ -168,9 +166,8 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin: 0 1em; */
-    
-    }
+    margin: 2em;
+   }
     .about-me > p{
         text-align: center;
         padding: 1em;
@@ -179,4 +176,62 @@ h2 {
         padding-left: 2em;
     }
     
+    /*      PROJECTS        */
+    .projects-header {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    text-decoration: underline;
+    padding-bottom: 1em;
+    }
+    /* grid for my projects*/
+    .projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 1em;
+    }
+    .projects > div{
+    text-align: center;
+    margin: 1em;
+    }
+    .projects img {
+    width: 80%;
+    border: 1px solid black;
+    }
+}
+@media screen and (min-width: 1024px){
+    nav.navbar{
+        font-size: 1.6em;
+    }
+    .about-me{
+        font-size: 1.2em;
+        margin: .5em;
+    }
+    .about-me .me img{
+        height: 250px;
+        width: 250px;
+    }
+
+    /* grid for my projects*/
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 0 1em;
+        padding-bottom: 1em;
+    }
+
+
+    /*      contact me      */
+    .contact-me{
+        font-size: 1.5em;
+    }
+
+    /*      FOOTER      */
+    footer{
+        font-size: 1.5em;
+    }
+    footer i{
+        padding: 0 1em;
+    }
 }
