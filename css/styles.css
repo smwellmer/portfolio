@@ -87,8 +87,13 @@ p {
     width: 8em;
     border-radius: 50%;
     object-fit: cover;
+    transform: translate3d(0px, 0, 0) scale(1.2);
+    transition: all 0.35s;
 }
-
+.headshot:hover{
+    opacity: .5;
+    transform: translate3d(0px, 0, 0) scale(2);
+}
 
 /*      PROJECTS        */
 .projects-header {
@@ -192,6 +197,10 @@ h2 {
     .about-me div{
         padding-left: 2em;
     }
+    .about-me .me img{
+        height: 10em;
+       width: 10em;
+    }
     
     /*      PROJECTS        */
     .projects-header {
@@ -245,6 +254,10 @@ h2 {
     .about-me h2{
         padding-left: 2em;
     }
+    .about-me .me img{
+        height: 10em;
+       width: 10em;
+    }
 
     /* grid for my projects*/
     .projects {
@@ -275,7 +288,10 @@ h2 {
     .me{
         margin-left: 8em;
     }
-
+    .about-me .me img{
+        height: 15em;
+       width: 15em;
+    }
 
   /* grid for my projects*/
   .projects {
@@ -284,5 +300,41 @@ h2 {
     grid-template-rows: 1fr 1fr;
     margin: 0 1em;
     padding-bottom: 1em;
+    }
+}
+@media screen and (min-width: 2560px){
+    .desktop-logo{
+        height: 5em;
+        margin: .5em;
+    }
+    nav.navbar{
+        font-size: 2em;
+    }
+    .about-me h2{
+        width: 30%;
+        font-size: 3em;
+    }
+    .about-me .me{
+       margin-right: 3em;
+    }
+    .about-me p{
+        font-size: 2em;
+    }
+    .about-me .me img{
+        height: 20em;
+       width: 20em;
+    }
+
+    .contact-me{
+        font-size: 2em;
+    }
+    .projects-header{
+        font-size: 3em;
+    }
+    .projects{
+        font-size: 1.5em;
+    }
+    footer{
+        font-size: 2.5em;
     }
 }
