@@ -1,39 +1,28 @@
 [
     {
       "name": "My Top Movies",
-      "description":"I created a webpage that displays some of my favorite movies using JSON files",
+      "description":"I created a webpage that displays some of my favorite movies using JSON files.",
       "github": "https://github.com/smwellmer/628-jsonlesson",
       "deployed": "https://mystifying-franklin-0f5c74.netlify.app",
       "image": "./img/JSONWebpage.png"
     },
     {
       "name": "LOTR Map",
-      "description":"Interactive Map of LOTR using jQuery",
+      "description":"I used jQuery functions to create an interactive Lord of the Rings Map!",
       "github": "https://git.generalassemb.ly/smwellmer/jQuery_LOTR",
       "image": "./img/LOTR.png"
     },
     {
-      "name": "LOTR Map",
-      "description":"Interactive Map of LOTR using jQuery",
-      "github": "https://git.generalassemb.ly/smwellmer/jQuery_LOTR",
-      "image": "./img/LOTR.png"
+      "name": "Startup Matchmaker",
+      "description":"My first time using CSS Grid and Flexbox.",
+      "github": "https://github.com/smwellmer/Startup-Matchmaker",
+      "image": "./img/startupmatchmaker.png"
     },
     {
-      "name": "LOTR Map",
-      "description":"Interactive Map of LOTR using jQuery",
-      "github": "https://git.generalassemb.ly/smwellmer/jQuery_LOTR",
-      "image": "./img/LOTR.png"
-    },
-    {
-      "name": "LOTR Map",
-      "description":"Interactive Map of LOTR using jQuery",
-      "github": "https://git.generalassemb.ly/smwellmer/jQuery_LOTR",
-      "image": "./img/LOTR.png"
-    },
-    {
-      "name": "LOTR Map",
-      "description":"Interactive Map of LOTR using jQuery",
-      "github": "https://git.generalassemb.ly/smwellmer/jQuery_LOTR",
-      "image": "./img/LOTR.png"
+      "name": "Mars Exploration Website",
+      "description":"This was my first try at making a responsive site!",
+      "github": "https://github.com/smwellmer/Mars-Responsive",
+      "image": "./img/mars.png"
     }
+  
 ]
