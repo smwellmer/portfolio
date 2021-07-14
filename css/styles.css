@@ -9,7 +9,6 @@ darker -- #A1B2E6
     padding: 0;
     box-sizing: border-box;
 }
-
 /*    ITEMS FOR THE BODY AND HEADER/NAVBAR*/
 body {
     font-family: 'Raleway', sans-serif;
@@ -196,10 +195,11 @@ h2 {
     }
     .about-me div{
         padding-left: 2em;
+        width: 30%;
     }
     .about-me .me img{
         height: 10em;
-       width: 10em;
+        width: 10em;
     }
     
     /*      PROJECTS        */
@@ -253,10 +253,12 @@ h2 {
     }
     .about-me h2{
         padding-left: 2em;
+        width: 30%;
     }
     .about-me .me img{
         height: 10em;
-       width: 10em;
+        width: 10em;
+        margin-left: 1em;
     }
 
     /* grid for my projects*/
@@ -284,13 +286,14 @@ h2 {
 @media screen and (min-width: 1440px){
    .about-me h2{
        margin-top: .5em;
+       width: 30%;
    }
-    .me{
-        margin-left: 8em;
-    }
+   .about-me p{
+       width: 30%;
+   }
     .about-me .me img{
         height: 15em;
-       width: 15em;
+        width: 15em;
     }
 
   /* grid for my projects*/

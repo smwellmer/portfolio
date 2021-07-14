@@ -20,6 +20,8 @@ const showMenu = (event) => {
 
 $hamburger.on("click", showMenu)
 
+
+
 //grabbing files from JSON
 
 const $projects = $(".projects")
