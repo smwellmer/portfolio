@@ -225,11 +225,22 @@ h2 {
         margin: .5em;
     }
     nav.navbar{
-        font-size: 1.6em;
+        font-size: 1.2em;
     }
     .about-me{
+        display: flex;
         font-size: 1.2em;
-        margin: 1em;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .about-me p{
+        width: 35%;
+    }
+    .me{
+        margin-left: 1.5em;
+    }
+    .about-me h2{
+        padding-left: 2em;
     }
 
     /* grid for my projects*/
@@ -243,7 +254,7 @@ h2 {
 
     /*      contact me      */
     .contact-me{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     /*      FOOTER      */
