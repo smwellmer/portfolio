@@ -1,14 +1,26 @@
 [
     {
       "name": "My Top Movies",
-      "description":"I created a webpage that displays some of my favorite movies.",
+      "description":"I created a webpage that displays some of my favorite movies using JSON files",
       "github": "https://github.com/smwellmer/628-jsonlesson",
       "deployed": "https://mystifying-franklin-0f5c74.netlify.app",
       "image": "./img/JSONWebpage.png"
     },
     {
       "name": "LOTR Map",
-      "description":"Interactive Map of LOTR",
+      "description":"Interactive Map of LOTR using jQuery",
+      "github": "https://git.generalassemb.ly/smwellmer/jQuery_LOTR",
+      "image": "./img/LOTR.png"
+    },
+    {
+      "name": "LOTR Map",
+      "description":"Interactive Map of LOTR using jQuery",
+      "github": "https://git.generalassemb.ly/smwellmer/jQuery_LOTR",
+      "image": "./img/LOTR.png"
+    },
+    {
+      "name": "LOTR Map",
+      "description":"Interactive Map of LOTR using jQuery",
       "github": "https://git.generalassemb.ly/smwellmer/jQuery_LOTR",
       "image": "./img/LOTR.png"
     }

@@ -31,8 +31,9 @@ $.ajax("./json/projects.json")
 
         $div.html (`
         <h3 class="project-name">${project.name}</h3> 
-        <h3 class="project-description">${project.description}</h3>
         <img src=${project.image}>
+        <h3 class="project-description">${project.description}</h3>
+        
         `)
 
         $projects.append($div);
