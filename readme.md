@@ -58,55 +58,61 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 MVP and PostMVP spreadsheet:
 https://docs.google.com/spreadsheets/d/1noRhtCXd-YiHVrazrl5HJSBNVDtSQgKxdzsnAXZ81TA/edit?usp=sharing
 
-
-
-#### MVP (examples)
-- Pull data using google json api
-- Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
-#### PostMVP 
-- Anything else that is not MVP
 ## Functional Components
 Based on the initial logic defined in the previous sections try and breakdown the logic further into functional components, and by that we mean functions.  Try and capture what logic would need to be defined if the game was broken down into the following categories.
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
 #### MVP
-| Component | Priority | Estimated Time | Actual Time |
-| --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
-| Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
-#### PostMVP
-| Component | Priority | Estimated Time | Actual Time |
-| --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
-| Total | H | 20hrs| hrs |
 
+Component	   |  Priority |	Time Est.  |   Actual time
+Flexbox- Navbar	    H	           3	           2
+Hamburger	        M	           2	           2
+JSON setup	        H	           2	           1
+GRID setup	        H	           3	           3
+Contact Form	    L	           2	           0.5
+Project Cards	    M	           3	           2
+Responsive Design	H	           3	           3
+Social Media Icons	L	           1	           0.5
+Buttons	            L	           1	           0
+CSS Design      	M	           4	           6
+			
+			
+	                     Total:    24	            20
+
+
+
+#### PostMVP
+
+Component	        | Priority	| Time Est.	| Comments
+Img hover event	        L	           3	    1
+Navbar hover event	    L	           3	    0
+animated background	    M	           3	    1			
+			
+	                        Total:     9	    2
 
 
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ jQuery
+
 ## Code Snippet
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
+This is the portion I wrote to make the hover effect on my personal photo.
+
+.headshot{
+    height: 8em;
+    width: 8em;
+    border-radius: 50%;
+    object-fit: cover;
+    transform: translate3d(0px, 0, 0) scale(1.2);
+    transition: all 0.35s;
 }
-```
+.headshot:hover{
+    opacity: .5;
+    transform: translate3d(0px, 0, 0) scale(2);
+}
+
+
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+    I struggled with incorportating some items after the rest of the site was built.
+    Example: I wanted to change my hamburger to have a dropdown menu, but when I was 
+    attempting that, my projects cards disappeared. I did not complete the dropdown
+    menu portion.
