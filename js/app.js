@@ -45,6 +45,8 @@ $.ajax("./json/projects.json")
 
 
 
+
+
 /* BACKGROUND*/ /* https://freefrontend.com/javascript-background-effects/ */
 var canvas = document.querySelector('canvas');
 var canvasWidth = canvas.width = window.innerWidth;
