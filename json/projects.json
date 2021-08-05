@@ -23,5 +23,11 @@
       "description":"This was my first try at making a responsive site!",
       "github": "https://github.com/smwellmer/Mars-Responsive",
       "image": "./img/mars.png"
+    },
+    {
+      "name": "CoffeeVERSE Mock E-Commerce Site",
+      "description":"First site built in React!",
+      "github": "https://github.com/smwellmer/Project2",
+      "image": "./img/coffeeverse.png"
     }
 ]
