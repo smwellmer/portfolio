@@ -29,5 +29,12 @@
       "description":"First site built in React!",
       "github": "https://github.com/smwellmer/Project2",
       "image": "./img/coffeeverse.png"
+    },
+    {
+      "name": "Favorite Desserts MERN Site",
+      "description":"Web app built using MongoDB, Express, React, & Node App.",
+      "github": "https://github.com/smwellmer/Project2",
+      "deployed": "https://just-desserts.netlify.app/",
+      "image": "./img/justdesserts.png"
     }
 ]
